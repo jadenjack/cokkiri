@@ -6,7 +6,7 @@ class CokkiriMyPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Center(
-        child: Text('CokkiriMyPage'),
+        child: Text('CokkiriMyPage'), 
       ),
     );
   }
