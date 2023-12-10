@@ -1,7 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:cokkiri/pages/tradePage.dart';
-import 'package:cokkiri/pages/myPage.dart';
+import 'pages/productPage.dart';
+import 'pages/myPage.dart';
 
 class CokkiriHome extends StatefulWidget {
   const CokkiriHome({Key? key}) : super(key: key);
@@ -14,8 +13,8 @@ class CokkiriHomeState extends State<CokkiriHome> {
   int currentIndex = 0;
 
   final List<Widget> pages = [
-    CokkiriTradePage(),
-    CokkiriMyPage(),
+    ProductPage(),
+    MyPage(),
   ];
 
   void onTap(int index) {

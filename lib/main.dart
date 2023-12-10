@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cokkiri/home.dart';
+import 'home.dart';
 
 void main() {
   runApp(Cokkiri());

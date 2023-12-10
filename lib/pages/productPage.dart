@@ -3,7 +3,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import '../models/product.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:styled_widget/styled_widget.dart';
 
 import '../utils/numberFormat.dart';
 import 'productDetailPage.dart';
